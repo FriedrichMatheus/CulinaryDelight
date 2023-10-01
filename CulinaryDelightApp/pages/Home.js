@@ -12,7 +12,7 @@ import "../../assets/logo-culinary-delight.png";
 import "../../assets/menu-aberto.png";
 import RecipeCard from "../components/RecipeCard";
 
-function LandingPage() {
+function Home() {
   return (
     <ScrollView style={style.container}>
       <View style={style.topMenu}>
@@ -59,4 +59,4 @@ function LandingPage() {
   );
 }
 
-export default LandingPage;
+export default Home;
